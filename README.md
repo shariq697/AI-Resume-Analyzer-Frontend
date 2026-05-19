@@ -1,16 +1,52 @@
-# React + Vite
+🚀 AI Resume Analyzer - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Overview
 
-Currently, two official plugins are available:
+* Frontend web application for an AI-powered Resume Analyzer
+* Built with React and Vite for fast and modern performance
+* Allows users to paste resumes and receive instant ATS-style AI feedback
+* Displays score, strengths, weaknesses, and summary from backend API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🌐 Live Links
 
-## React Compiler
+* Live App: https://resume-frontend-eight-sooty.vercel.app/
+* Backend API: https://ai-resume-analyzer-ilzc.onrender.com/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚙️ Features
 
-## Expanding the ESLint configuration
+* Clean and responsive user interface
+* Resume text input system
+* Real-time AI analysis via backend API
+* ATS score display (0–100)
+* Strengths and weaknesses breakdown
+* AI-generated professional summary
+* Loading state during analysis
+* Error handling for API failures
+  
+🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript (ES6+)
+* CSS
+* Fetch API
+
+📡 Backend Integration
+
+* Sends resume text to `/analyze` endpoint
+* Receives structured JSON response from backend
+* Dynamically displays AI evaluation results
+
+🚀 Installation & Setup
+
+* Clone the repository
+* Run `npm install`
+* Start development server using `npm run dev`
+* Open [http://localhost:5173](http://localhost:5173) (for local development only)
+
+📌 Project Purpose
+
+* Demonstrates full-stack AI integration
+* Builds real-world SaaS-style resume analyzer
+* Shows frontend + backend + AI workflow
+* Practices API integration and UI development
